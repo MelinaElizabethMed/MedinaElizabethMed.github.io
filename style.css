@@ -16,7 +16,7 @@ body {
 
 li {
   list-style:none;
-  
+
 }
 
 a {
@@ -24,10 +24,10 @@ a {
   font-size: 20px;
   /*border: solid; */
   background-color:#736758;
-  
- 
- 
-  
+
+
+
+
 }
 
 /** global classes styling **/
@@ -52,25 +52,25 @@ a {
 
 .grid {
   display: flex;
- 
+
 }
 
 header {
   position: relative;
   top: 0;
   min-height: 250px;
-  
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  
+
 
  /* background-color: #46008E;*/
-  
+
 }
 
- 
+
 @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
@@ -79,9 +79,9 @@ header {
 
 .logo {
   width: 50px;
- 
- 
-  
+
+
+
 }
 
 @media (max-width: 650px) {
@@ -104,7 +104,7 @@ header {
   min-width:100px;
   border-radius: 50%;
   border: solid;
-   
+
 }
 
 @media (max-width: 650px) {
@@ -126,7 +126,7 @@ nav {
     align-items: center;
     text-align: center;
     padding: 0 50px;
-    
+
   }
   nav li {
     padding-bottom: 5px;
@@ -138,7 +138,7 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+
 }
 
 @media (max-width: 650px) {
@@ -240,7 +240,7 @@ nav > ul {
 #how-it-works > iframe {
   max-width: 560px;
   width: 50%; /*  achique el video de 100 a 50 */
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 #pricing {
@@ -251,17 +251,17 @@ nav > ul {
 }
 
 .product {
-  display: flex;
-flex-direction: column;
+  display: grid;
+  flex-direction: column;
   align-items: center;
-   text-align: center;
+  text-align: center;
   width: calc(100% / 3);
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
   text-align: center;
-    
-  
+
+
 }
 
 .product > .level {
@@ -330,12 +330,12 @@ footer > span {
   justify-content: flex-end;
   font-size: 0.9em;
   color: #444;
-} 
+}
 h3 {
   color: #F28627;
   font-weight: normal;
   font-size: 30px;
   font-family: 'Koulen', cursive;
   text-transform: lowercase;
-  
+
 }
